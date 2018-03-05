@@ -17,8 +17,9 @@ export const bearerToken = "...";
 export const environmentId = "XXXXX";
 ```
 
-This isn't actually an API, just a one-off script. So look towards the bottom of
-the file and modify it to do what you want. Then run it:
+This isn't actually an API, just a one-off script. So it's pretty hard-coded at
+the moment, but look at the exports of `api.js` to see what's available and
+modify `index.js` to do what you want. Then run it:
 
 ```
 yarn
